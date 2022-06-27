@@ -1,0 +1,47 @@
+/* DO NOT EDIT */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    background: #000000;
+    overflow: hidden;
+}
+
+main {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    
+    background-color: #4b7492;
+}
+
+img,
+video {
+    position: absolute;
+}
+.videos{
+	width:1920px;
+	height:1080px;
+}
+#instructions {
+    z-index: 10000;
+}
+
+.more-info {
+    display: none;
+    z-index: 8000;
+}
+.logo{
+    /* width:150px; */
+	z-index:9999;
+}
+
+/* ADD YOUR CSS HERE */
